@@ -47,6 +47,10 @@
     color: $colorText;
     margin: 0;
     margin-top: 5px;
+
+    @media (min-width: 1500px) {
+        @include dynamicText (112.5%, 36, 18, 1500px, 3000, 1500);
+    }
 }
 
 .header__socials {
@@ -63,6 +67,10 @@
     position: absolute;
     left: 12.9%;
     bottom: 36.5%;
+
+    @media (min-width: 1500px) {
+        @include dynamicText (81.25%, 26, 13, 1500px, 3000, 1500);
+    }
 }
 
 .header__contacts {
@@ -73,6 +81,10 @@
     left: 29%;
     bottom: 20%;
     position: absolute;
+    
+    @media (min-width: 1500px) {
+        @include dynamicText (81.25%, 26, 13, 1500px, 3000, 1500);
+    }
 }
 
 .header__tel, .header__mail {
