@@ -62,10 +62,10 @@ $hamburgerColorActive: #f8c255;
         border-color: $hamburgerColorActive;
 
         .hamburger__element {
-            background-color: $hamburgerColorActive;
+            background-color: $hamburgerColor;
 
             &::after, &::before {
-                background-color: $hamburgerColorActive;
+                background-color: $hamburgerColor;
             }
         }
     }
